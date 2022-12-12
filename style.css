@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  height: 600px;
+  background-image: url('./background.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-style: oblique;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu > div {
+  margin-left: 10px;
+}
+
+.about {
+  width: 50%;
+  margin: auto;
+  padding: 40px 0;
+  font-size: 20px;
+  font-style: oblique;
+  text-align: justify;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin: 0 40px;
+}
+
+.item.balls {
+  background-image: url('./balls.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.item.game {
+  background-image: url('./game.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.item.aperitif {
+  background-image: url('./aperitif.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.photos {
+  height: 600px;
+  background-color: #eeee;
+}
