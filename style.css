@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Open Sans', serif;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -18,7 +22,8 @@
 }
 
 .title {
-  font-size: 50px;
+  font-size: 60px;
+  font-family: 'Codystar', serif;
 }
 
 .subtitle {
