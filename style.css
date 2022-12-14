@@ -19,6 +19,7 @@ body {
   background-repeat: no-repeat;
   background-color: black;
   background-position: center;
+  border-bottom: 1px solid #d3be53;
 }
 
 .title {
@@ -40,19 +41,38 @@ body {
   margin-left: 10px;
 }
 
+.section-title {
+  position: absolute;
+  top: 20px;
+  left: auto;
+  right: auto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+  font-family: 'Codystar', serif;
+  border-bottom: 2px #d3be53 solid;
+  padding-bottom: 5px;
+}
+
 .about {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 600px;
-  width: 50%;
   margin: auto;
   padding: 40px 0;
   font-size: 20px;
   font-style: oblique;
   text-align: justify;
   align-items: center;
+  border-bottom: 1px solid #d3be53;
+}
+
+.description {
+  width: 50%;
 }
 
 .items {
@@ -66,7 +86,7 @@ body {
   height: 200px;
   border-radius: 100px;
   margin: 0 40px;
-  border: 3px solid black;
+  border: 3px solid #d3be53;
 }
 
 .item.balls {
@@ -87,9 +107,74 @@ body {
   background-position: center;
 }
 
-.contacts {
-  height: 600px;
+.photos {
+  position: relative;
+  height: 300px;
   background-color: #eeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #d3be53;
+}
+
+.photo {
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.links {
+  position: relative;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #d3be53;
+}
+
+.link {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 40px;
+  border: 3px solid #d3be53;
+}
+
+.cirkouest {
+  background-image: url('./logos/cirkouest.png');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.roulemaboule {
+  background-image: url('./logos/roulemaboule.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.chapitotebo {
+  background-image: url('./logos/chapitotebo.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #006401;
+}
+
+.ratsmasseursdeballes {
+  background-image: url('./logos/ratsmasseursdeballes.gif');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contacts {
+  position: relative;
+  height: 600px;
+  background-color: #f1f1f1;
 
   display: flex;
   justify-content: center;
