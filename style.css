@@ -101,8 +101,8 @@ body {
   background-position: center;
 }
 
-.item.aperitif {
-  background-image: url('./aperitif.jpg');
+.item.unicycle {
+  background-image: url('./unicycle.jpg');
   background-size: cover;
   background-position: center;
 }
