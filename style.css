@@ -12,14 +12,14 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  color: white;
   height: 600px;
   background-image: url('./background.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: black;
   background-position: center;
   border-bottom: 1px solid #d3be53;
+  color: white;
+  font-weight: bold;
 }
 
 .title {
@@ -39,6 +39,14 @@ body {
 
 .menu > div {
   margin-left: 10px;
+}
+
+a:visited {
+  color: white;
+}
+
+a {
+  color: white;
 }
 
 .section-title {
@@ -89,8 +97,8 @@ body {
   border: 3px solid #d3be53;
 }
 
-.item.balls {
-  background-image: url('./balls.jpg');
+.item.jongle {
+  background-image: url('./jongle.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -101,8 +109,8 @@ body {
   background-position: center;
 }
 
-.item.unicycle {
-  background-image: url('./unicycle.jpg');
+.item.spectacle {
+  background-image: url('./spectacle.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -110,12 +118,12 @@ body {
 .photos {
   position: relative;
   height: 300px;
-  background-color: #eeee;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #d3be53;
+  display: none;
 }
 
 .photo {
@@ -131,6 +139,7 @@ body {
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid #d3be53;
+  background-color: #eeee;
 }
 
 .link {
@@ -140,6 +149,7 @@ body {
   border-radius: 10px;
   margin: 0 40px;
   border: 3px solid #d3be53;
+  background-color: white;
 }
 
 .cirkouest {
@@ -171,11 +181,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.chapiteauaucoeur {
+  background-image: url('./logos/chapiteauaucoeur.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .contacts {
   position: relative;
   height: 600px;
-  background-color: #f1f1f1;
-
   display: flex;
   justify-content: center;
   align-items: center;
