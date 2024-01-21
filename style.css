@@ -201,6 +201,13 @@ a {
   margin-right: 20px;
 }
 
+.value {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d3be53;
+  margin: 10px 0;
+}
+
 .map {
   margin-left: 20px;
   text-align: center;
